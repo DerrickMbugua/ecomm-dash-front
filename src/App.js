@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <h1>Ecommerce Dashboard</h1>
-      <button>Button</button>
-      <Button>Bootstrap Button</Button>
+      <Header />
     </div>
   );
 }
